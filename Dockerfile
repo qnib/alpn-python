@@ -1,4 +1,4 @@
-FROM qnib/alpn-syslog
+FROM qnib/alpn-rsyslog
 
 RUN apk update && apk upgrade && \
     apk add python py-pip && \
